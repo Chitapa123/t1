@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>HUGOS ContactUs</title>
+</head>
+<body  style="background-color:GREY">
+<div class="contact">
+                <h1>CONTACT US</h1>
+                <p>THIS IS THE OFFICIAL HUGOS SITE</p>
+            </div>
+            <div class="container">
+                <div class="contactInfor">
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>ADDRESS</h3>
+                            <p>07 AMSTARDAM,<br> GLENNLOAN HARARE ZIMBABWE</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>EMAIL</h3>
+                            <p><a href>HUGOSofficial@gmail.com</a></p>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>CONTACT PHONE</h3>
+                                <p>0787570464</p>
+                            </div>
+                        </div>
+                    </div>
+    <h3>REPORT QUERY</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+			<label for="contact reason">Contact Reason</label>
+    <select id="contact reason" name="contact reason">
+      <option value="sales">Sales</option>
+      <option value="help">Help</option>
+      <option value="billing">Billing</option>
+    </select>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+	</form>
+</body>
+</html>
